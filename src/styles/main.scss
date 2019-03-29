@@ -1,5 +1,25 @@
 $background: red;
+$font-color: green;
 
 body {
   background: $background;
+  color: $font-color;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  width: 2%;
+}
+#zero{
+  width: 4.3%;
+}
+.btn-operator{
+  background-color:orange;
+  border: none;
+  width: 2%;
+
+}
+h1{
+  color: blue;
 }

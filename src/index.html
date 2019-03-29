@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
+
 <body>
-  <img src="images/calculator.jpg" alt="mountain">
+  <div>
+
+  <h1>Calculator</h1>
+    <div>
+      <input type="text" name="" id="result" placeholder="0" >
+    </div>
+  <p>
+      <button class="btn-clearall"  onclick="clearAll(value)">AC</button>
+      <button class="btn-clearlastentry"   onclick="eraseLastentry(value)">CE</button>
+      <button class="btn-operator"   onclick="percentage(value)">%</button>
+      <button class="btn-operator"   onclick="division(value)">/</button>
+    <p>
+      <button class="btn-number"  onclick="num(value)">7</button>
+      <button class="btn-number"  onclick="num(value)">8</button>
+      <button class="btn-number"  onclick="num(value)">9</button>
+      <button class="btn-operator"   onclick="multification(value)">*</button>
+   </p>
+
+   <p>
+      <button class="btn-number"  onclick="num(value)">4</button>
+      <button class="btn-number"  onclick="num(value)">5</button>
+      <button class="btn-number"  onclick="num(value)">6</button>
+      <button class="btn-operator"   onclick="Subtration(value)">-</button>
+   </p>
+
+   <p>
+      <button class="btn-number"  onclick="num(value)">1</button>
+      <button class="btn-number"  onclick="num(value)">2</button>
+      <button class="btn-number"  onclick="num(value)">3</button>
+      <button class="btn-operator"   onclick="addition(value)">+</button>
+   </p>
+   <p>
+      <button class="btn-number" id="zero"  onclick="num(value)">0</button>
+      <button class="btn-number"  onclick="decimal(value)">.</button>
+      <button class="btn-operator"  onclick="answer(value)">=</button>
+      
+   </p>
+ 
+  </div>
 </body>
+
 </html>
