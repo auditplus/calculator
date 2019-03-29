@@ -1,5 +1,21 @@
-$background: red;
+$background:green;
 
 body {
   background: $background;
+}
+button {
+  height:35px;
+  width:35px;
+  border-color:red;
+  background-color: #000;
+  color:#fff;
+
+
+}
+input {
+  border-color: blueviolet;
+  
+}
+.btn-clear {
+  margin-right: 75px;
 }
